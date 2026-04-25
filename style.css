@@ -1,0 +1,77 @@
+body {
+        background-color: #000000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .imagem {
+        width: 250px;
+    }
+
+    .quadradox {
+        width: 250px;
+
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 2px;
+        background-color: rgb(16, 46, 77);
+
+    }
+
+    .hs {
+        margin: 15px;
+
+    }
+
+    section {
+        border-top: rgb(255, 255, 255) solid 2px;
+    }
+
+    img {
+        width: 100%;
+        transition: transform 0.4s ease, filter 0.4s ease;
+        
+    }
+
+    img:hover {
+         transform: scale(1.05);
+        filter: brightness(1.2);
+    }
+
+    .sbr {
+        background-color: rgb(78, 76, 76);
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(94, 93, 93, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .sbr:hover {
+        background-color: #424040;
+        box-shadow: 0 10px 20px rgba(94, 93, 93, 0.1);
+        transform: translateY(-5px);
+    }
+
+    .link {
+        color: rgb(122, 120, 120);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .link:hover {
+        color: rgb(16, 46, 77);
+        text-decoration: underline;
+    }
+
+     .nav {
+        background-color:rgb(78, 76, 76) ;
+        padding: 15px;
+        text-align: center;
+    }
+
+    main {
+         background-color: #000000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+    }
